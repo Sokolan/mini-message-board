@@ -5,7 +5,12 @@
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
-    <h1>King</h1>
-    <p>Welcome to the new age</p>
+    <form method="POST" action="/new">
+      <label for="user">Enter User Name:</label>
+      <input type="text" placeholder="user" name="user" />
+      <label for="message">Enter Message:</label>
+      <input type="text" placeholder="message text" name="message" />
+      <button type="submit">Submit Message</button>
+    </form>
   </body>
 </html>
