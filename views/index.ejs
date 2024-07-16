@@ -7,6 +7,9 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <form method="GET" action="/new">
+      <button type="submit">Add message</button>
+    </form>
     <% if (messages.length) { %>
     <ul>
       <% messages.forEach((message) => { %>
